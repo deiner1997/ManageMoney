@@ -1,0 +1,49 @@
+.centrar {
+    text-align: center;
+    color: #1F3C57;
+}
+.tamano{
+    height: 120px;
+    width: 120px;
+}
+.cuentasImg {
+    height: 120px;
+    width: 275px;
+}
+
+.item {
+    padding: 25px;
+    margin: 6px;
+    min-width: 130px;
+    min-height: 190px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+    .item img {
+        -webkit-transition: all .9s ease; /* Safari y Chrome */
+        -moz-transition: all .9s ease; /* Firefox */
+        -o-transition: all .9s ease; /* IE 9 */
+        -ms-transition: all .9s ease; /* Opera */
+    }
+
+    .item:hover img {
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        transform: scale(1.25);
+    }
+
+.item { /*Ancho y altura son modificables al requerimiento de cada uno*/
+    overflow: hidden;
+}
+#clientes {
+    background-color: white;
+    height: 50px;
+    color: #929698;
+    display:block;
+}
+#inputtext{
+    width: 300px;
+}
